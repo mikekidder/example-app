@@ -6362,7 +6362,7 @@ webpackJsonp([5],[
 	                list_1.MD_LIST_DIRECTIVES
 	            ],
 	            providers: [icon_1.MdIconRegistry],
-	            styleUrls: ['./app.css'],
+	            styles: ["\n    * {\n      -webkit-font-smoothing: antialiased;\n      -moz-osx-font-smoothing: grayscale;\n    }\n\n    .secondary {\n      color: rgba(0, 0, 0, .54);\n    }\n\n    md-sidenav-layout {\n      background: rgba(0, 0, 0, .03);\n    }\n\n    md-sidenav {\n      width: 300px;\n    }\n  "],
 	            template: "\n    <md-sidenav-layout fullscreen>\n      <md-sidenav #sidenav>\n        <md-nav-list>\n          <a md-list-item linkTo=\"/\" (click)=\"sidenav.close()\">\n            <md-icon md-list-icon>book</md-icon>\n            <span md-line>My Collection</span>\n            <span md-line class=\"secondary\">View your book collection!</span>\n          </a>\n          <a md-list-item linkTo=\"/book/find\" (click)=\"sidenav.close()\">\n            <md-icon md-list-icon>search</md-icon>\n            <span md-line>Browse Books</span>\n            <span md-line class=\"secondary\">Find your next book!</span>\n          </a>\n        </md-nav-list>\n      </md-sidenav>\n      <md-toolbar color=\"primary\">\n        <button md-icon-button (click)=\"sidenav.open()\">\n          <md-icon>menu</md-icon>\n        </button>\n        <span>Books Sample App</span>\n      </md-toolbar>\n\n      <route-view></route-view>\n\n    </md-sidenav-layout>\n  "
 	        }), 
 	        __metadata('design:paramtypes', [])
